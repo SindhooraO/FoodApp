@@ -4,7 +4,7 @@ import { FaSearch, FaArrowLeft } from "react-icons/fa";
 
 const API_URL = "https://api.spoonacular.com/recipes/complexSearch";
 const RECIPE_INFO_URL = "https://api.spoonacular.com/recipes";
-const API_KEY = "e94540f00cd64ea69667a2203ed80b30"; // Replace with your actual API key
+const API_KEY = ""; // Replace with your actual API key
 
 function App() {
   const [query, setQuery] = useState("");
